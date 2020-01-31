@@ -64,29 +64,49 @@ body {
     margin: auto;
     padding: 32px 0 33px;
 }
+.flex_block1{
+    display: flex;
+
+}
 .block{
-    width: 210px;
+    flex-basis: 210px;
     height: 210px;
-    float: left;
     background-color: #000;
     margin: 0 14px 48px 0;
 }
-.adaptive_block .nine_block{
-    float: left;
+.adaptive_block .flex_block1 .clock{
     margin: 32px 38px 0 0;
+    font-size: 2.5rem;
+    color: #000;
 }
-.Gut{
+.inscription{
     font-size: 1.5rem;
     margin-top: 33px;
     font-family: Oswald-Regular, sans-serif;
-    width: 100%;
-    float: left;
+    color: #000;
 }
 .Gut:after{
     content: "Какойтокрутойчувак Украина, Киев  Тема: «Замечательная»";
-    display: block;
     font-size: 1.125rem;
-    width: 234px;
+    max-width: 244px;
     margin-top: 16px;
+    display: block;
+    font-family: Oswald-Regular, sans-serif;
+    color: #000;
+}
+.block_ten {
+    margin-right: 16px;
+}
+.ten_clock {
+    margin-right: -1px;
+}
+.Serge:after {
+    content: "Какойтокрутойчувак Украина, Киев  Тема: «Замечательная»";
+    font-size: 1.125rem;
+    max-width: 244px;
+    margin-top: 17px;
+    display: block;
+    font-family: Oswald-Regular, sans-serif;
+    color: #000;
 }
 
