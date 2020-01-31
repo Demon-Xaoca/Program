@@ -97,9 +97,6 @@ body {
 .block_ten {
     margin-right: 16px;
 }
-.ten_clock {
-    margin-right: -1px;
-}
 .Serge:after {
     content: "Какойтокрутойчувак Украина, Киев  Тема: «Замечательная»";
     font-size: 1.125rem;
@@ -109,4 +106,46 @@ body {
     font-family: Oswald-Regular, sans-serif;
     color: #000;
 }
+.ten_clock h3:after{
+    display: inline-block;
+    content: "КОФЕ-БРЕЙК";
+    margin-left: 47px;
+    font-family: Oswald-Regular, sans-serif;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+.timetable:nth-of-type(4){
+    margin-bottom: 0;
+}
+.adaptive_block1 {
+    max-width: 884px;
+    margin: auto;
+    padding: 36px 0 36px;
+    display: flex;
+}
+.adaptive_block1 .block {
+    margin:0 19px 0 0;
+}
+.adaptive_block1 h3 {
+    margin: 32px 36px 0 0;
+    font-size: 2.5rem;
+    color: black;
+}
+.adaptive_block1 p {
+    font-size: 1.5rem;
+    color: black;
+    font-family: Oswald-Regular, sans-serif;
+}
+.Chist:after {
+    content: "Какойтокрутойчувак Украина, Киев  Тема: «Замечательная»";
+    font-size: 1.125rem;
+    max-width: 244px;
+    margin-top: 17px;
+    display: block;
+    font-family: Oswald-Regular, sans-serif;
+    color: #000;
+    font-family: Oswald-Regular, sans-serif;
+}
+
+
 
