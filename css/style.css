@@ -197,7 +197,7 @@ body {
 .blocks {
     padding: 44px 0 103px 0;
     max-width:874px;
-    margin: 0 auto;
+    margin: 0 auto 77px;
 }
 .Blocks_line {
     display: flex;
@@ -206,6 +206,7 @@ body {
     margin-bottom: 54px;
     justify-content:space-between;
     align-content: stretch;
+    flex-wrap: wrap;
 }
 .blocks .Blocks_line h3 {
     color: black;
@@ -242,10 +243,11 @@ body {
     width:106px;
 }
 .Line{
-    margin-bottom: 51px;
+    margin-top: 180px;
+    vertical-align: middle;
 }
 .Line:after{
-    width: 100%;
+    width: 706px;
     height: 1px;
     background-color: black;
     display: inline;
@@ -280,11 +282,180 @@ body {
     white-space: pre;
 }
 .block_content {
-    border: red 2px solid;
     width:211px;
 }
 .blocks .Blocks_line .block_content h3{
     margin: 0;
 }
-
-
+.Vsev:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Max:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Otstup2 .block_content .Zhovt{
+    margin-top: 60px;
+}
+.Margin .block2{
+    margin-top: 85px;
+}
+.Otstup .block_content .block2{
+    margin-top: 54px;
+}
+.Otstup .Line{
+    margin-top: 200px;
+}
+.Jul:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Otstup2 .Line {
+    margin-top: 235px;
+}
+.Tanya {
+    margin-top: 80px;
+}
+.Margin2 .block2 {
+    margin-top: 54px;
+}
+.Tatyana:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Dima {
+    width: 77px;
+}
+.Dima:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Alex:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Otstup3 .Line {
+    margin-top: 230px;
+}
+.cheturu {
+    margin-top: 54px;
+}
+.Koba:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Rost:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Ihor:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Didiuk {
+    margin-top: 80px;
+}
+.First_margin:before {
+    width:160px;
+    content: "";
+    display: block;
+}
+.Ktoto:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Ktototam:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Den:after {
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Den {
+    width: 100px;
+}
+.Last_block {
+    border:1px solid black;
+    padding: 96px 13px 93px 15px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.Last_adaptive {
+    max-width: 880px;
+    margin: auto;
+    display: flex;
+}
+.Last_block img {
+    width: 100%;
+    display: block;
+}
+.Six {
+    display: inline-block;
+    margin: 32px 36px 0 0;
+    font-size: 2.5rem;
+}
+.Last_adaptive p {
+    margin: 32px 0 24px 0;
+    font-size: 1.5rem;
+    font-family: Oswald-Regular,sans-serif;
+    font-weight:bold ;
+}
+.Last_adaptive p:after{
+    content: "Интенсив от школы рекламы и дизайна “Багаж”";
+    display: block;
+    font-family: Oswald-Regularб,sans-serif;
+    font-size: 1.125rem;
+}
+.Otstup4 .Line{
+    margin-top: 230px;
+}
