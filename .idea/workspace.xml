@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3c972c-7ad5-473d-b3fa-057b740fe1a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/Oswald-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Oswald-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Oswald-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Oswald-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Oswald-Light.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.html" beforeDir="false" afterPath="$PROJECT_DIR$/Program.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -34,7 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Контрольная" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580422812900</updated>
       <workItem from="1580422814665" duration="10130000" />
-      <workItem from="1580506235875" duration="11766000" />
+      <workItem from="1580506235875" duration="23706000" />
     </task>
     <servers />
   </component>

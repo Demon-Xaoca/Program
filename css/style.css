@@ -9,6 +9,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url('../fonts/Oswald-Light.eot');
+    src: url('../fonts/Oswald-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Oswald-Light.woff2') format('woff2'),
+    url('../fonts/Oswald-Light.woff') format('woff'),
+    url('../fonts/Oswald-Light.ttf') format('truetype'),
+    url('../fonts/Oswald-Light.svg#Oswald-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -185,15 +197,17 @@ body {
 .blocks {
     padding: 44px 0 103px 0;
     max-width:874px;
-    margin: auto;
+    margin: 0 auto;
 }
-.First_line {
+.Blocks_line {
     display: flex;
-    justify-content:space-between;
-    align-items:flex-end;
+    align-items:stretch;
     position: relative;
+    margin-bottom: 54px;
+    justify-content:space-between;
+    align-content: stretch;
 }
-.blocks h3 {
+.blocks .Blocks_line h3 {
     color: black;
     font-size: 1.5rem;
     margin-right: 102px;
@@ -201,9 +215,10 @@ body {
 .Nadpis:after {
     content: "модератор секции Кирилл Чистяков";
     display: block;
-    font-family: Oswald-Regular, sans-serif;
+    font-family: Oswald-Light, sans-serif;
     font-size: 1rem;
     margin: 15px 0 27px;
+    width:106px;
 }
 .block2 {
     width: 120px;
@@ -213,16 +228,18 @@ body {
 .ADVERT:after{
     content: "модератор секции Виталий Пушкин";
     display: block;
-    font-family: Oswald-Regular, sans-serif;
+    font-family: Oswald-Light, sans-serif;
     font-size: 1rem;
     margin: 15px 0 27px;
+    width:106px;
 }
 .Strat:after{
     content: "модератор секции Вадим Бортник";
     display: block;
-    font-family: Oswald-Regular, sans-serif;
+    font-family: Oswald-Light, sans-serif;
     font-size: 1rem;
     margin: 15px 0 27px;
+    width:106px;
 }
 .Line{
     margin-bottom: 51px;
@@ -237,6 +254,37 @@ body {
     content: "";
     z-index: -1;
     margin-left: 20px;
-
 }
+.Roman:after {
+    content: "Какойтокрутойчувак \A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Vitaviy:after{
+    content: "Какойтокрутойчувак \A Украина, Киев \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.Vadim:after{
+    content: "Какойтокрутойчувак\A Украина, Киев  \A Тема: «Замечательная»";
+    display: block;
+    font-family: Oswald-Light, sans-serif;
+    font-size: 1rem;
+    margin: 15px 0 27px;
+    white-space: pre;
+}
+.block_content {
+    border: red 2px solid;
+    width:211px;
+}
+.blocks .Blocks_line .block_content h3{
+    margin: 0;
+}
+
 
